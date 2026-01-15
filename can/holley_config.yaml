@@ -1,0 +1,13 @@
+# Holley EFI CAN Parser Configuration
+# Serial number of the ECU to monitor (0-255)
+# Set to null to monitor all ECUs
+ecu_serial: 19838
+dbc_path: HP Dominator & Terminator X DBC.dbc
+message_filter:
+- RPM
+- FUEL_AFR_AVERAGE
+- OIL_PRESSURE
+- COOLANT_TEMP
+output_format: human
+decode_signals: true
+show_raw_data: false

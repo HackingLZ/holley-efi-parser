@@ -1,0 +1,8 @@
+# Holley EFI CAN Bus Parser Requirements
+
+# Core dependencies
+pyyaml>=6.0
+cantools>=39.0.0
+
+# Optional dependencies for enhanced features
+python-can>=4.0.0  # For direct CAN bus interface access (highly recommended)
